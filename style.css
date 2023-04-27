@@ -18,7 +18,9 @@ header img {
 #div-links {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     background-color: rgb(71, 83, 74);
+    max-width: 100%;
     margin: 1rem 0rem;
     justify-content: center;
     border-radius: 10px;
@@ -28,7 +30,7 @@ header img {
 li>a {
 
     padding: 0.3rem 2rem;
-    font-size: x-large;
+    font-size: 1.7rem;
     justify-content: space-around;
     color: rgba(255, 238, 0, 0.884);
     text-decoration: none;
@@ -43,6 +45,7 @@ li:hover {
     background-image: url('./assets/victoria-shes-4MEL9XS-3JQ-unsplash.jpg');
     background-size: cover;
     border-radius: 50px;
+    max-width: 100%;
     margin-top: 2rem;
     font-weight: 900;
     font-size: 3rem;
@@ -63,7 +66,7 @@ li:hover {
 
 .section1 article>p {
     text-align: left;
-    font-size: medium;
+    font-size: 1rem;
     padding-top: 2rem;
 }
 
