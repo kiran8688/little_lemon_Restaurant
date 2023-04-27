@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 1rem 7rem;
+}
+
+header img {
+    display: block;
+    margin: auto;
+
+}
+
+#div-links {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(71, 83, 74);
+    margin: 1rem 0rem;
+    justify-content: center;
+    border-radius: 10px;
+    list-style: none;
+}
+
+li>a {
+
+    padding: 0.3rem 2rem;
+    font-size: x-large;
+    justify-content: space-around;
+    color: rgba(255, 238, 0, 0.884);
+    text-decoration: none;
+}
+
+li:hover {
+
+    text-decoration: underline 1rem rgb(71, 83, 74);
+}
+
+.section1 {
+    background-image: url('./assets/victoria-shes-4MEL9XS-3JQ-unsplash.jpg');
+    background-size: cover;
+    border-radius: 50px;
+    margin-top: 2rem;
+    font-weight: 900;
+    font-size: 3rem;
+    padding: 0rem 50rem 0rem 0rem;
+    background-position: right;
+    color: rgb(38, 82, 51);
+    text-shadow: 2px 2px 2px #dfd672;
+}
+
+.section1 article {
+    backdrop-filter: blur(2px);
+    text-align: center;
+    padding-left: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-right: 1rem;
+}
+
+.section1 article>p {
+    text-align: left;
+    font-size: medium;
+    padding-top: 2rem;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0rem;
+    border-radius: 50px;
+}
+
+.section2>article {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    border-radius: 20px;
+    background-color: #dfd6729a;
+    max-width: 28rem;
+}
+
+.section2 article>img,
+h2,
+p,
+a,
+article>ul>li,
+li>strong {
+    color: rgb(38, 82, 51);
+    padding: 0.5rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+.section2 article img {
+    border-radius: 20px;
+}
+
+.section2 article:hover {
+    box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.2);
+    background-color: #dfd672;
+}
+
+article>a:hover {
+    color: rgb(1, 49, 13);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+article>ul>li:hover {
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem 1rem;
+    margin: 1rem;
+}
+
+footer p {
+    border-top: 0.1rem solid rgb(38, 82, 51);
+    text-align: right;
+}
+
+footer img {
+    max-width: 5rem;
+}
+
+footer div {
+
+    flex: 1;
+}
